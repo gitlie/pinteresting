@@ -1,6 +1,27 @@
+
+/*-------------this is the bootstrap styles, add this to style your page-----*/
+
+@import 'https://fonts.googleapis.com/css?family=Lato';
+
+/* navbar */
+$navbar-height:             45px;
+$navbar-default-bg:         #ffffff;
+$navbar-default-brand-color: #c0392b;
+$font-family-sans-serif:   "Lato", Helvetica, Arial, sans-serif;
+
+/* body */
 $body-bg:                   #ecf0f1;
-$navbar-inverse-bg:         #95a5a6;
-$navbar-inverse-link-color: #ecf0f1;
 $jumbotron-bg:              #ffffff;
-$btn-primary-bg:            #9b59b6;
+$btn-primary-bg:            #c0392b;
+
+/*------------- add this to import bootstrap-----*/
+
 @import 'bootstrap';
+
+.center {
+  text-align: center;
+}
+
+.navbar-brand{
+  font-weight: bold;
+}
